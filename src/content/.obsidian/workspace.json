@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/about.md",
+                "file": "case-studies/breeze-theme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "breeze-theme"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/about.md",
+                "file": "case-studies/breeze-theme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for about"
+              "title": "Backlinks for breeze-theme"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/about.md",
+                "file": "case-studies/breeze-theme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from about"
+              "title": "Outgoing links from breeze-theme"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/about.md",
+                "file": "case-studies/breeze-theme.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of about"
+              "title": "Outline of breeze-theme"
             }
           }
         ]
@@ -185,11 +185,12 @@
   },
   "active": "3263ae048eb89f17",
   "lastOpenFiles": [
+    "pages/about.md",
+    "projects/breeze-theme.md",
+    "projects",
     "case-studies/breeze-theme.md",
     "case-studies",
     "posts/hello-world.md",
-    "posts/markdown-guide.md",
-    "projects/breeze-theme.md",
-    "pages/about.md"
+    "posts/markdown-guide.md"
   ]
 }
