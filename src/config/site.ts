@@ -1,9 +1,9 @@
 const site = {
   // --- Site Metadata ---
   meta: {
-    title: "Breeze",
-    description: "A minimal Astro theme for personal websites",
-    author: "Your Name",
+    title: "Coley Logan",
+    description: "A content designer in Melbourne, Australia",
+    author: "Coley Logan",
     logo: "/logo.svg",
     ogImage: "/og-image.png",
     // HTML lang attribute, affects page language and date formatting
@@ -14,28 +14,31 @@ const site = {
   // --- Navigation ---
   // subtitle: decorative label shown below the name (uppercase, small text)
   navigation: [
-    { name: "Home", subtitle: "Index", href: "/" },
-    { name: "Writing", subtitle: "Blog", href: "/posts" },
-    { name: "Projects", subtitle: "Works", href: "/projects" },
-    { name: "Friends", subtitle: "Links", href: "/friends" },
-    { name: "About", subtitle: "Me", href: "/about" },
+    { label: "Writing", subtitle: "Notes", href: "/posts" },
+    { label: "Work", subtitle: "Case studies", href: "/case-studies" },
+    { label: "About", subtitle: "Me", href: "/about" },
+    { label: "Tools", subtitle: "How I work", href: "/tools" },
   ],
 
   // --- Social Links ---
   social: [
-    { name: "GitHub", href: "https://github.com/your-username", icon: "mdi:github" },
+    {
+      name: "GitHub",
+      href: "https://github.com/your-username",
+      icon: "mdi:github",
+    },
     { name: "Email", href: "mailto:hello@example.com", icon: "mdi:email" },
   ],
 
   // --- Homepage Hero ---
   hero: {
-    greeting: "👋 Hello, I'm Breeze",
-    // Supports HTML. Use <span class="font-medium text-foreground underline decoration-primary/30"> to highlight keywords
+    greeting: "Hi, I'm Coley",
     description:
-      'A minimal personal website theme built with <span class="font-medium text-foreground underline decoration-primary/30">Astro</span> and <span class="font-medium text-foreground underline decoration-primary/30">Tailwind CSS</span>.',
-    cards: [
-      { icon: "mdi:explore", label: "Status", value: "Building something cool" },
-      { icon: "mdi:location", label: "Location", value: "Earth" },
+      "Content designer with 14 years simplifying complex systems. I work across UX writing, IA, plain language, and design systems — for regulated, high-stakes products.",
+    info: [
+      { label: "Status", value: "Open to work — full-time & contract" },
+      { label: "Location", value: "Melbourne, Australia" },
+      { label: "Resume", value: "Download PDF", href: "/resume.pdf" },
     ],
   },
 
@@ -71,7 +74,7 @@ const site = {
   labels: {
     postsTitle: "Writing",
     postsDescription: "Notes, thoughts, and technical musings",
-    projectsTitle: "Projects",
+    projectsTitle: "Case studies",
     projectsDescription: "Small tools built for fun or to solve real problems.",
     friendsTitle: "Friends",
     friendsDescription: "Like-minded folks around the web.",
@@ -81,7 +84,8 @@ const site = {
     backToPosts: "Back to posts",
     goHome: "Go Home",
     notFoundTitle: "Page not found",
-    notFoundDescription: "The page you're looking for may have been removed or the link is broken.",
+    notFoundDescription:
+      "The page you're looking for may have been removed or the link is broken.",
     endOfPost: "End of Post",
     tableOfContents: "Table of Contents",
     searchPlaceholder: "Search posts, tags, or commands...",

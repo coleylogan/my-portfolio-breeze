@@ -29,10 +29,10 @@ const posts = defineCollection({
     }),
 });
 
-const projects = defineCollection({
+const caseStudies = defineCollection({
   loader: glob({
     pattern: "**/*.{md,mdx}",
-    base: "./src/content/projects",
+    base: "./src/content/case-studies",
   }),
   schema: z.object({
     title: z.string(),
@@ -98,7 +98,7 @@ const pages = defineCollection({
 
 export const collections = {
   posts,
-  projects,
+  caseStudies,
   categories,
   tags,
   friends,

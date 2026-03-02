@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "62558e205633051e",
@@ -184,5 +184,12 @@
     }
   },
   "active": "3263ae048eb89f17",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "case-studies/breeze-theme.md",
+    "case-studies",
+    "posts/hello-world.md",
+    "posts/markdown-guide.md",
+    "projects/breeze-theme.md",
+    "pages/about.md"
+  ]
 }
