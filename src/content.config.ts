@@ -98,7 +98,7 @@ const pages = defineCollection({
 
 export const collections = {
   posts,
-  caseStudies,
+  "case-studies": caseStudies,
   categories,
   tags,
   friends,

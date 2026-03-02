@@ -4,7 +4,7 @@ import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 import site from "@/config/site";
 
-const projects = await getCollection("case-studies");
+const projects = await getCollection("caseStudies");
 ---
 
 <Layout
@@ -53,7 +53,7 @@ const projects = await getCollection("case-studies");
               {project.data.description}
             </p>
             <div class="flex flex-wrap gap-2">
-              {project.data.tech.map((t) => (
+              {project.data.tech.map((t: string) => (
                 <span class="font-mono text-[11px] text-muted-foreground/40">
                   #{t}
                 </span>
