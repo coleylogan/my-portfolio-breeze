@@ -35,7 +35,7 @@ const site = {
     greeting: "Hi, I'm Coley",
     description:
       "Content designer with 14 years simplifying complex systems. I work across UX writing, IA, plain language, and design systems — for regulated, high-stakes products.",
-    info: [
+    cards: [
       { label: "Status", value: "Open to work — full-time & contract" },
       { label: "Location", value: "Melbourne, Australia" },
       { label: "Resume", value: "Download PDF", href: "/resume.pdf" },
