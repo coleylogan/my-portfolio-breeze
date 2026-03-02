@@ -22,7 +22,11 @@ export default defineConfig({
       themes: ["material-theme-darker", "material-theme-lighter"],
     }),
     mdx(),
-    icon(),
+    icon({
+      include: {
+        mdi: ["*"],
+      },
+    }),
     sitemap(),
   ],
 
