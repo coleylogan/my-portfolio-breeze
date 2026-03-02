@@ -5,7 +5,7 @@ description: About this site and its author
 
 ## About Me
 
-Hello! I'm a developer who loves building things for the web.
+Hello! My name is Coley.
 
 I created this site using [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com), and I'm sharing it as a theme called **Breeze** so others can use it too.
 
